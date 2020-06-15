@@ -4,7 +4,7 @@ body {
   height: 100%;
   margin: 0;
   overflow: hidden;
-  background: url('../sssrc/images/bg.png');
+  background: url('../src/images/bg.png');
 }
 
 /******************************************************/
