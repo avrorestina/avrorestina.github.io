@@ -4,11 +4,7 @@ body {
   height: 100%;
   margin: 0;
   overflow: hidden;
-<<<<<<< HEAD
   background: url('..//src/images/bg.png');
-=======
-  background: url("https://raw.githubusercontent.com/avrorestina/avrorestina.github.io/master/src/images/bg.png");
->>>>>>> 818ecda06bc319b6b906042e8d757ee399cbcc14
 }
 
 /******************************************************/
