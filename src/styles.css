@@ -1,0 +1,190 @@
+html,
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-image: url("../src/images/bg.png");
+}
+
+/******************************************************/
+/*****************Mobile Device************************/
+/******************************************************/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+  #gameScreen {
+    top: 300px;
+    width: 940px;
+    height: 800px;
+    border: 3px solid black;
+    margin: 0 auto;
+    background-color: #f8ca4d;
+    position: relative;
+  }
+
+  .title {
+    text-align: center;
+    color: black;
+    font-size: 58px;
+    top: 220px;
+    text-shadow: 5px 5px 10px white;
+    position: relative;
+  }
+
+  #rock {
+    position: absolute;
+    top: 67%;
+    left: 18%;
+  }
+  
+  #paper {
+    position: absolute;
+    top: 67%;
+    left: 43%;
+  }
+  
+  #scissor {
+    position: absolute;
+    top: 67%;
+    left: 68%;
+  }
+  
+  #battleText {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 58px;
+    top: 24%;
+    position: relative;
+    font-family: Trebuchet MS, sans-serif;
+  }
+
+  #copyright{
+    position: absolute;
+    font-size: 28px;
+    font-weight: bold;
+    top: 90%;
+    left: 82%;
+    text-shadow: 3px 3px 10px white;
+  }
+  
+  #version{
+    position: absolute;
+    font-size: 28px;
+    font-weight: bold;
+    top: 90%;
+    left: 2%;
+    text-shadow: 3px 3px 10px white;
+  }
+}
+
+/******************************************************/
+/*****************Laptop and PC************************/
+/******************************************************/
+@media only screen
+and (min-width : 1224px) {
+  #gameScreen {
+    top: 5px;
+    width: 640px;
+    height: 480px;
+    border: 3px solid black;
+    margin: 0 auto;
+    background-color: #f8ca4d;
+    position: relative;
+  }
+
+  .title {
+    text-align: center;
+    color: black;
+    top: 0;
+    text-shadow: 5px 5px 10px white;
+    position: relative;
+  }
+
+  #rock {
+    position: absolute;
+    top: 67%;
+    left: 14%;
+  }
+  
+  #paper {
+    position: absolute;
+    top: 67%;
+    left: 39%;
+  }
+  
+  #scissor {
+    position: absolute;
+    top: 67%;
+    left: 64%;
+  }
+  
+  #battleText {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 38px;
+    top: 24%;
+    position: relative;
+    font-family: Trebuchet MS, sans-serif;
+  }
+
+  #copyright{
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    top: 90%;
+    left: 88%;
+    text-shadow: 3px 3px 10px white;
+  }
+  
+  #version{
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    top: 90%;
+    left: 2%;
+    text-shadow: 3px 3px 10px white;
+  }
+}
+
+/******************************************************/
+/*****************Animation Section********************/
+/******************************************************/
+.paper {
+  position: absolute;
+  top: 67%;
+  left: 39%;
+}
+
+.paper:active {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  margin: 1.5%;
+}
+
+.rock {
+  position: absolute;
+  top: 67%;
+  left: 14%;
+}
+
+.rock:active {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  margin: 1.5%;
+}
+
+.scissor {
+  position: absolute;
+  top: 67%;
+  left: 64%;
+}
+
+.scissor:active {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  margin: 1.5%;
+}
