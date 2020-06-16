@@ -1,5 +1,5 @@
 # ROCK PAPER SCISSOR
-Version 1.0
+Version 1.1
 
 Created by Reemays Narmi
 
