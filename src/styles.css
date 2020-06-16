@@ -7,6 +7,15 @@ body {
   background: url('../src/images/bg.png');
 }
 
+.credit-body{
+  margin: 30px;
+}
+
+.container{
+  background-color: rgba(255, 252, 75, 0.548);
+  padding: 20px;
+}
+
 /******************************************************/
 /*****************Mobile Device************************/
 /******************************************************/
@@ -15,10 +24,13 @@ and (min-device-width : 320px)
 and (max-device-width : 480px){
   #gameScreen {
     top: 300px;
-    width: 940px;
-    height: 800px;
-    border: 3px solid black;
+    width: 800px;
+    height: 680px;
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
     margin: 0 auto;
+    padding: -5px;
     background-color: #f8ca4d;
     position: relative;
   }
@@ -53,8 +65,9 @@ and (max-device-width : 480px){
   #battleText {
     text-align: center;
     font-weight: bolder;
-    font-size: 58px;
-    top: 24%;
+    font-size: 54px;
+    text-shadow: 1px 1px 3px grey;
+    top: 30%;
     position: relative;
     font-family: Trebuchet MS, sans-serif;
   }
@@ -64,6 +77,15 @@ and (max-device-width : 480px){
     font-size: 28px;
     font-weight: bold;
     top: 90%;
+    left: 82%;
+    text-shadow: 3px 3px 10px white;
+  }
+
+  #credits{
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    top: 95%;
     left: 82%;
     text-shadow: 3px 3px 10px white;
   }
@@ -87,8 +109,11 @@ and (min-width : 1224px) {
     top: 5px;
     width: 640px;
     height: 480px;
-    border: 3px solid black;
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
     margin: 0 auto;
+    padding: 30px;
     background-color: #f8ca4d;
     position: relative;
   }
@@ -123,6 +148,7 @@ and (min-width : 1224px) {
     text-align: center;
     font-weight: bolder;
     font-size: 38px;
+    text-shadow: 1px 1px 3px grey;
     top: 24%;
     position: relative;
     font-family: Trebuchet MS, sans-serif;
@@ -134,6 +160,15 @@ and (min-width : 1224px) {
     font-weight: bold;
     top: 90%;
     left: 88%;
+    text-shadow: 3px 3px 10px white;
+  }
+
+  #credits{
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    top: 94%;
+    left: 90%;
     text-shadow: 3px 3px 10px white;
   }
   
